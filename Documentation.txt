@@ -1,0 +1,53 @@
+HACKATHON,2017
+
+
+TEAM NO:25
+COLLEGE:CHANDIGARH COLLEGE OF ENGINEERING AND TECHNOLOGY,SECTOR 26,CHANDIGARH
+TEAM MEMBERS: LAGAN PODDAR,D AKHIL KUMAR,VIVSVAAN SHARMA,NAMRATA SAUN
+TOPIC:VIRTUAL DOCTOR
+
+
+PROBLEM STATEMENT
+
+In today’s world where everyone is so busy and not able to visit the doctor every now and then and are becoming careless.
+Patients have to wait for the reports to come and then go to the doctor again to get the prescription of the medicines. This also wastes the time in between.
+Patients have to wait in the queue for their turn. This wastes time of the patient. 
+Paying hefty fees of the doctor for a middle class family is not possible. 
+
+
+SOLUTION PROPOSED
+
+A Virtual Doctor Application is created in which you can check out various problems related to different body parts by analyzing the symptoms yourself
+In case of any confusion and for further assistance you can also communicate with the doctor by sitting at one place
+A lot of time and money is saved.
+You get prescriptions for medicines sitting at the home.
+
+
+TECHNICAL DESIGN
+
+THE WHOLE SYSTEM COMPRISES OF TWO MODULES:
+PATIENT: Login,Problem History,Entering a new symptom,Database of problems and symptoms and solutions related to each body part,one on one chat with the doctor at server end
+DOCTOR:Change in Database,Chat with User,Login
+
+
+TECHNOLOGY USED
+
+USER UI: Java Platform(Eclipse IDE)
+Database Linking: JDBC
+
+
+HARDWARE REQUIREMENTS
+
+Internet Line
+Doctor Server
+User Server
+
+
+ASSUMPTIONS
+
+The doctor at the server end is verified
+User is not suffering from any non curable disease
+
+
+
+THANK YOU
