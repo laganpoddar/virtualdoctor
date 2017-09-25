@@ -80,13 +80,163 @@ class female extends JFrame implements ActionListener
 	}
 	public void actionPerformed(ActionEvent ae)
 	{
-		if(ae.getSource()==b1)
+		if(ae.getSource()==b1) //button for forehead
 		{ 
 			forehead fh=new forehead();
 			fh.setVisible(true);
 		}
+
+		if(ae.getSource()==b2) //button for eye
+		{ 
+			eye fh=new eye();
+			fh.setVisible(true);
+		}
 		
-else if(ae.getSource()==close){
+		if(ae.getSource()==b3) //button for ear
+		{ 
+			ear fh=new ear();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b4) //button for nose
+		{ 
+			nose fh=new nose();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b5) //button for throat
+		{ 
+			throat fh=new throat();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b6) //button for shoulder
+		{ 
+			shoulder fh=new shoulder();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b7) //button for chest
+		{ 
+			chest fh=new chest();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b8) //button for breast
+		{ 
+			breast fh=new breast();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b9) //button for front of elbow
+		{ 
+			foelbow fh=new foelbow();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b10) //button for wrist
+		{ 
+			wrist fh=new wrist();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b11) //button for pelvis
+		{ 
+			pelvis fh=new pelvis();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b12) //button for thigh
+		{ 
+			thigh fh=new thigh();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b13) //button for knee
+		{ 
+			knee fh=new knee();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b14) //button for ankle
+		{ 
+			ankle fh=new ankle();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b15) //button for neck
+		{ 
+			neck fh=new neck();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b16) //button for spine
+		{ 
+			spine fh=new spine();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b17) //button for back of shoulder but opens up that of shoulder only
+		{ 
+			shoulder fh=new shoulder();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b18) //button for back
+		{ 
+			back fh=new back();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b19) //button for elbow
+		{ 
+			elbow fh=new elbow();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b20) //button for loin
+		{ 
+			loin fh=new loin();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b21) //button for arm
+		{ 
+			arm fh=new arm();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b22) //button for buttock
+		{ 
+			buttock fh=new buttock();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b23) //button for finger
+		{ 
+			finger fh=new finger();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b24) //button for calf
+		{ 
+			calf fh=new calf();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b25) //button for heel
+		{ 
+			heel fh=new heel();
+			fh.setVisible(true);
+		}
+		
+		if(ae.getSource()==b26) //button for abdomen
+		{ 
+			abdomen fh=new abdomen();
+			fh.setVisible(true);
+		}
+
+		else if(ae.getSource()==close){
 			
 			dispose();
 			
